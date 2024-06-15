@@ -1,0 +1,16 @@
+{
+  "name": "testing_repo",
+  "version": "1.0.0",
+  "description": "This is a testing repository for the git_scheduler package. It is used to test the functionality of the package.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "try": "ts-node --esm ../cli/git-scheduler/bin/index.ts", 
+    "exec": "ts-node ../cli/git-scheduler/dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
